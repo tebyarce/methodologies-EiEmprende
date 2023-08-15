@@ -1,0 +1,43 @@
+/* Smaller screens */
+@media only screen and (max-width: 840px) {
+    .dropdown {
+        margin-bottom: 7% !important;
+
+    }
+
+    .dropdown-group {
+        max-width: 90% !important;
+    }
+}
+
+/* Bigger screens */
+@media only screen and (min-width: 840px) {
+    .dropdown {
+        margin-bottom: 1.5% !important;
+    }
+    .dropdown-group {
+        max-width: 80% !important;
+    }
+}
+
+.dropdown {
+    border-radius: 3px;
+}
+
+.MuiButton-root {
+    color: black !important;
+}
+
+.MuiDialog-root {
+    height: 100% !important;
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    .summary {
+        font-size: 1rem !important;
+    }
+    .MuiAccordionDetails-root {
+        font-size: 0.9 rem !important;
+    }
+  }

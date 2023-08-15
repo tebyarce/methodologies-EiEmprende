@@ -1,0 +1,34 @@
+/* Smaller screens */
+@media only screen and (max-width: 840px) {
+    .tarjeta {
+        display: flex !important;
+    }
+
+    .stepper-fases {
+        flex-direction: column !important;
+        flex-wrap: nowrap !important;
+        align-items: flex-start !important;
+        display: flex !important;
+    }
+
+    *{
+        font-size: 0.9rem !important;
+    }
+}
+
+/* Bigger screens */
+@media only screen and (min-width: 840px) {
+    .tarjeta {
+        display: block !important;
+    }
+
+    .stepper-fases {
+        display: flex !important;
+        margin: auto !important;
+    }
+}
+
+.tarjeta {
+    margin-bottom: 20px !important;
+    width: 98% !important;
+}

@@ -1,0 +1,67 @@
+footer {
+    width: 100%;    
+    position: absolute;
+    bottom: -25rem;
+    width: 100%;
+    background-color: #fffbfb;
+    border-top: 2px solid #000000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+    width: inherit;
+}
+
+.copyright p{
+    text-align: center;
+    justify-content: center;
+}
+
+.copyright {
+    margin-top: 3vh;
+}
+
+.logo-una {
+    margin-top: 2vh;
+    margin-left: 3%;
+    align-content: center;
+}
+
+.socials {
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+.socials ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+
+}
+
+@media only screen and (max-width: 1600px) {
+   .footer-content {
+        display: block;
+        margin: auto;
+   }
+   footer {
+    position: relative;
+    bottom: -20vh;
+   }
+}
